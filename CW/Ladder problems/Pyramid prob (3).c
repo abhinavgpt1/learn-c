@@ -1,0 +1,14 @@
+int main()
+{
+    int R,C;
+    for(R=4;R>=1;R--)
+    {
+        for(C=4;C>=R;C--)
+        {
+            printf("%d",C);
+
+        }
+        printf("\n");
+    }
+}
+
